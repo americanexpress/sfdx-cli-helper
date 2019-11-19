@@ -1,0 +1,40 @@
+{
+  "name": "sfdx-cli-helper",
+  "version": "1.0.2",
+  "description": "Helper module for SFDX plugins",
+  "files": [
+    "/lib/*.js",
+    "lib/*.ts"
+  ],
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Xavier Fromageot <xavier.fromageot@aexp.com> (https://github.com/xapfrom)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "tslib": "^1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4",
+    "@types/jest": "^24.0.19",
+    "@types/node": "^10",
+    "globby": "^8",
+    "jest": "^24.9.0",
+    "nyc": "^14",
+    "ts-jest": "^24.1.0",
+    "ts-node": "^8",
+    "tslint": "^5",
+    "typescript": "^3.6.4"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/americanexpress/sfdx-cli-helper"
+  },
+  "scripts": {
+    "start": "rm -rf lib sfdx-cli-helper-1.0.0.tgz && tsc",
+    "test": "jest",
+    "coverage": "jest --coverage"
+  }
+}

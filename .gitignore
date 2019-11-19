@@ -1,0 +1,6 @@
+.nyc_output
+.vscode
+*.tgz
+coverage
+node_modules
+resources

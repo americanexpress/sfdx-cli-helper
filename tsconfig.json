@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "build": true,
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "commonjs",
+    "outDir": "./lib",
+    "pretty": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "rootDir": "./src",
+    "sourceMap": true,
+    "strict": false,
+    "target": "es2017",
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
