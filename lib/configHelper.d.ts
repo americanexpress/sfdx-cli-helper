@@ -8,6 +8,10 @@ export declare class ConfigHelper {
     configValueSetter: any;
     configKeyValidator: any;
     constructor(options: IConfigHelperOptions);
+    /**
+     * Fetches all configuration settings
+     * @returns JSON object
+     */
     private getSettings;
     /**
      * Saves a config value to the file determined by the

@@ -33,7 +33,7 @@
     "url": "https://github.com/americanexpress/sfdx-cli-helper"
   },
   "scripts": {
-    "start": "rm -rf lib sfdx-cli-helper-1.0.0.tgz && tsc",
+    "prepack": "rm -rf lib && tsc",
     "test": "jest",
     "coverage": "jest --coverage"
   }
