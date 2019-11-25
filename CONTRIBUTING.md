@@ -1,7 +1,7 @@
 # Contributing
 
 We'd be delighted to have you contribute your good ideas or catches to our project.
-Our Code of Conduct is very simple but please have a look at it before engaging our team.
+Our [Code of Conduct](./CODE_OF_CONDUCT.md) is very simple but please have a look at it before engaging our team.
 
 ## How to Contribute
 
