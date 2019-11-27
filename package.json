@@ -7,7 +7,7 @@
     "lib/*.ts"
   ],
   "main": "lib/index.js",
-  "keywords": [],
+  "keywords": ["sfdx","plugin","helper","configuration"],
   "author": "Xavier Fromageot <xavier.fromageot@aexp.com> (https://github.com/xapfrom)",
   "license": "Apache-2.0",
   "dependencies": {
@@ -30,7 +30,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/americanexpress/sfdx-cli-helper"
+    "url": "https://github.com/americanexpress/sfdx-cli-helper.git"
   },
   "scripts": {
     "prepack": "rm -rf lib && tsc",
