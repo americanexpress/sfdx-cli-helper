@@ -2,5 +2,6 @@
 .vscode
 *.tgz
 coverage
+lib
 node_modules
 resources
