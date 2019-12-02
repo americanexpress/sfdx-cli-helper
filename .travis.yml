@@ -12,7 +12,7 @@ deploy:
     branch: master
   provider: npm
   edge: true
-  cleanup: true
+  cleanup: false
   email: open-source-ops@aexp.com
   api_token:
     secure: lKQhya8v3vl0IXK9xKEVsWurhtsaCMxkoEBeA8x9GHJV+B3tnJ4OZ6PsaGRMf4rk4IC8XgwEt6zQoizwDYwB10wP1ygPHx99nNAmRxxZzHpYC2fMFJnVOd2rVGdC5Zuvr9BQV8ZNtFxIsBXJtxtB+Hk24hLV6Pw5N09LNRNCzMS4GuSmhr94lKrI7kRvkOfvR+Ta8oDZbPL60tmgibApXoyMCTarL76MTD6A3Q6YQtck7lBxLAxpJaYWlY7Nai8P4q/VoOiF4YU6XiTtOgFObBI9meDDBLrkO+0m0ExmMhNHfThAFCQTKQjlSMa7d08Rzdd6Pa42NMjyyns6OJSHa5W6cEO+q/KlIlhiO7oyTQw4WsYhx6chMLgS/ATc6nK1k8LoEji2UyIY+gYyaQK3j+kVT6wfGKV/lmEl9twtBENQRBC96ilcnuAt99hICDzdrbe3EnfB8Iw9J8Zhc4GS3lUKShnGteSeRe6WgLLrdJ9aNVmEHDEqzhKz5GvzVTAu+wHX1aACoVoXcKnbvZ2Gqy60Y8bdR+ou52DXxG5S7GUkJczoQIEN4GP3Or2BcoqJstEvuG/bUFEB/+/B8G5FEWxl6PnsQ6Ta/uyhRsTsG4Dm4BKqKI1+X7VwZTAIOW4ugENYqP8x8UUqyHAk8rvHXACkuFuQmmE6vHA96JAVGn8=

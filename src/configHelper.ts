@@ -13,7 +13,6 @@
  */
 import * as path from 'path';
 import * as fs from 'fs';
-import { validate } from '@babel/types';
 import { isNullOrUndefined } from 'util';
 
 /**
